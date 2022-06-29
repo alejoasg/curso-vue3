@@ -16,7 +16,7 @@
         },
 
         beforeCreate() {
-            console.info( "ComponenteH1 - Before create hook" );
+            console.info( "ComponenteH1 - Before create hook", this.$props );
         },
 
         created : () => {
